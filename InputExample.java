@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class InputExample {
-    Scanner scanner= new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
 
     void readNameAndAge() {
         String name;
@@ -12,8 +12,9 @@ public class InputExample {
         System.out.print("Age? ");
         age = scanner.nextInt();
 
-        System.out.println("Hello "+name+" You are  "+age+" springs young");
+        System.out.println("Hello " + name + " You are  " + age + " springs young");
     }
+
     public static void main(String[] args) {
         (new InputExample()).readNameAndAge();
     }
